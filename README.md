@@ -45,7 +45,7 @@ Features
 Installation
 
 ```bash
-git clone https://github.com/Hardik8128/Redux_Apt_Crud.git
-cd Redux_Apt_Crud
+git clone https://github.com/Hardik8128/Redux_Api_Crud.git
+cd Redux_Api_Crud
 npm install
 npm start
