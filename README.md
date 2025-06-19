@@ -1,12 +1,51 @@
-# React + Vite
+React Redux CRUD Form with File Upload
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a fully functional  CRUD (Create, Read, Update, Delete) form built using React, Redux Toolkit, and React-Bootstrap. It interacts with a backend API and supports:
 
-Currently, two official plugins are available:
+- User information form (First Name, Last Name, Age, Gender, City, Hobbies)
+- Profile image upload
+- Data table to display submitted entries
+- Edit/Delete functionality
+- Validation using `react-hook-form`
+- Stylish UI with React-Bootstrap
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Frontend: React, Redux Toolkit, React-Bootstrap, React Hook Form
+
+---
+
+Features
+
+-  Add new user data through a form
+-  Real-time validation errors
+-  Upload profile image (file input)
+-  Display all entries in a table format
+-  Edit existing user information
+-  Delete users with one click
+-  Conditional submit button (`Submit` or `Update`)
+-  Beautiful and responsive UI using Bootstrap
+
+---
+
+ Form Fields
+
+- First Name
+- Last Name
+- Age (Number)
+- Gender (Male/Female)
+- Hobbies (Checkboxes)
+- City (Text input)
+- Profile Image (File upload)
+
+---
+
+Installation
+
+```bash
+git clone https://github.com/Hardik8128/Redux_Apt_Crud.git
+cd Redux_Apt_Crud
+npm install
+npm start
